@@ -1,0 +1,19 @@
+main:
+  - title: "Home"
+    url: /en/
+  - title: "Research"
+    url: /en/research/
+  - title: "People"
+    url: /en/people/
+  - title: "Publications"
+    url: /en/publications/
+  - title: "Teaching"
+    url: /en/teaching/
+  - title: "Join"
+    url: /en/join/
+  - title: "Contact"
+    url: /en/contact/
+  - title: "PT"
+    url: /pt/
+  - title: "EN"
+    url: /en/
