@@ -1,0 +1,39 @@
+title: "Anderson Lima Group"
+email: "anderson@ufpa.br"
+description: "Computational Chemistry • Molecular Modeling • Enzyme Catalysis"
+url: "https://andersonlima-group.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+locale: "en-US"
+
+author:
+  name: "Anderson Lima"
+  bio: "Professor at UFPA"
+  location: "Belém, PA, Brazil"
+  links:
+    - label: "Email"
+      url: "mailto:anderson@ufpa.br"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-8451-9912"
+    - label: "GitHub"
+      url: "https://github.com/andersonlima-group"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      classes: wide
+
+include:
+  - _pages
+
+markdown: kramdown
